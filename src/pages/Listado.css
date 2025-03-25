@@ -59,7 +59,7 @@ h1 {
     color: white; /* Texto en blanco para contraste */
     font-family: 'Arial', sans-serif;
     transition: transform 0.3s ease;
-    
+
   }
   
   .card:hover {

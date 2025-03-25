@@ -38,7 +38,7 @@ return(
 
         <div className="content-wrapper">
             <div className="content">
-                <div className="row gap-3">
+                <div className="row gap-4">
 
                         {filtrarpokemon?.slice(0,151).map((pokemon)=>(
                             <Card className="mx-auto card" style={{ width: '18rem' }}>
