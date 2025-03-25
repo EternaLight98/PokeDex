@@ -21,7 +21,7 @@ h1 {
   header input{
     border-radius: 10px;
     height: 50px;
-    width: 200px;
+    width: 400px;
     background-color: bisque;
     color: #000;
     border: 3px solid rgb(0, 0, 0, 0.5);
@@ -43,16 +43,8 @@ h1 {
     background-color: rgba(157, 239, 212, 0.9); /* Verde menta pastel */
     border: 2px solid rgba(255, 180, 100, 0.3); /* Borde naranja pastel sutil */
     color: rgb(50, 50, 50); /* Texto oscuro para legibilidad */
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Sombra de texto */
+    
   }
-
-/*  .card{
-    border-radius: 20px;
-    transition: transform 0.3s ease;
-    background: linear-gradient(90deg, rgb(34, 106, 162),rgb(168, 121, 26), rgb(124, 21, 221)) ;
-    padding: 20px;
-    box-shadow: 0 4px 0 4px rgba(0, 0, 0, 0.4);
-  }*/
 
   .card {
     background: linear-gradient(
@@ -76,7 +68,6 @@ h1 {
     cursor: pointer;
   }
 
-
   .img-poke{
     padding: -10px;
     border-radius: 15px;
@@ -89,7 +80,6 @@ h1 {
   .title-poke{
     padding: 10px;
   }
-
 
   .info-poke{
     border-radius: 10px;
