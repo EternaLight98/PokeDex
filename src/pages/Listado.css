@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin:50px 0;
+    text-align:center;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+  }
+
+  .barra-buscador{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  header input{
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: bisque;
+    color: #000;
+    border: 3px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(19, 87, 224, 0.5);
+    font-size: 20px;
+  }
+
+  .card-body{
+    background: linear-gradient(90deg, rgb(34, 106, 162),rgb(168, 121, 26), rgb(124, 21, 221)) ;
+    border-radius: 10px;
+    margin-top: 2px;
+    padding: 20px;
+    box-shadow: 5px 0 5px rgb(0, 0, 0, 0.2);
+  }
+
+  .text-center{
+    border-radius: 10px;
+    background-color: rgba(157, 239, 212, 0.9); /* Verde menta pastel */
+    border: 2px solid rgba(255, 180, 100, 0.3); /* Borde naranja pastel sutil */
+    color: rgb(50, 50, 50); /* Texto oscuro para legibilidad */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Sombra de texto */
+  }
+
+/*  .card{
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    background: linear-gradient(90deg, rgb(34, 106, 162),rgb(168, 121, 26), rgb(124, 21, 221)) ;
+    padding: 20px;
+    box-shadow: 0 4px 0 4px rgba(0, 0, 0, 0.4);
+  }*/
+
+  .card {
+    background: linear-gradient(
+      90deg,
+      rgba(100, 160, 255, 0.9),
+      rgba(255, 180, 100, 0.9),
+      rgba(200, 120, 255, 0.9)
+    );
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    color: white; /* Texto en blanco para contraste */
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+
+
+  .img-poke{
+    padding: -10px;
+    border-radius: 15px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    width: 100px;
+    height: 120px;
+  }
+
+  .title-poke{
+    padding: 10px;
+  }
+
+
+  .info-poke{
+    border-radius: 10px;
+    background-color: rgba(255, 240, 220, 0.9); /* Beige claro pastel (contraste suave) */
+    border: 2px transparent rgba(100, 160, 255, 0.9); /* Borde azul pastel sutil*/
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+

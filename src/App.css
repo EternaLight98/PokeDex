@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(
+  90deg,
+  rgba(100, 160, 255, 0.9),  /* Azul pastel brillante (como Squirtle) */
+  rgba(255, 180, 100, 0.9),  /* Naranja pastel (como Charmander) */
+  rgba(200, 120, 255, 0.9)   /* Morado pastel (como Mew) */
+);
+}
